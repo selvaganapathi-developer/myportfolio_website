@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Porfolio Website</title>
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--custom css-->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!--font-awsome cdn-->
+    <script src="https://kit.fontawesome.com/39a010f774.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--header design-->
+    <header class="header">
+     <a href="#"  class="logo">Portfolio</a>
+     <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+   <a href="#home" class="active">Home</a>
+   <a href="#about">About</a>
+   <a href="#services">Services</a>
+   <a href="#portfolio">Portfolio</a>
+   <a href="#contact">Contact</a>
+</nav>
+</header>
+<!--home section design-->
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello Everyone</h3>
+        <h1>Myself G.Selva Ganapathi</h1>
+        <h3>and i am a <span class="multiple-text">Full Stack Web Developer | Freelancer</span></h3>
+        <p>Passionate software developer with one year of hands-on experience in web development and design through in my company and freelance projects. Proficient in researching, designing, implementing, and managing software programs. Skilled in testing and evaluating new programs to ensure optimal functionality. Responsible for the design and construction of websites, ensuring both aesthetic appeal and efficient functionality.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com " target="_blank"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+
+        </div>
+        <a href="selva_resume.pdf" download class="btn btn2">Download cv</a>
+    </div>
+    <div class="home-img">
+        <img src="./images/illustrator-img-4.avif" alt="">
+    </div>
+</section>
+<!--about section-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./images/aboutme.avif" alt="">
+            </div> 
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p style="font-size: 15px;text-align: justify;margin-right: 20px;">Hello Everyone,I'm G. Selva Ganapathi, a junior full stack web developer originally from Tamil Nadu. Despite graduating from my college, I found myself in a telecalling job unrelated to my field of study. Recognizing the importance of aligning my career with my passion for web development, I took the bold step of resigning from my job to pursue my aspirations.Driven by a thirst for knowledge, I embarked on a self-learning journey, scouring YouTube tutorials and articles to acquire the necessary skills for a career in web development. Now, with over a year of hands-on experience in the field, I bring a blend of self-motivation, determination, and a solid foundation in web development principles to the table.I am excited to continue growing and contributing to the dynamic world of technology.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>To create an responsible website with end to end full stack process </li>
+                            <li><span>UI/UX</span> <br> Designing web/app interface</li>
+                            <li><span>Programming skills</span><br>
+                                (Html5 | CSS3 | Javascript ES6 | Bootstrap | Sass | Jquery | Php | Codeigniter3 | Mysql | Basic of UI automation testing)
+            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-2023</span> Worked as (Junior Development Programmer ) at Enova Software and Hardware solutions in Coimbatore</li>
+                            <li><span>2021-2022</span> Worked as (Call Center Executive)CCE at Kolors Health Care Pvt Ltd in Hyderabad</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021</span>B.VOC (Software Development) at ALAGAPPA UNIVERSITY , KARAIKUDI</li>
+                            <li><span>2018</span>HSC (XII-STD) at ST.MICHAEL.MATRIC.HR.SEC.SCHOOL , KARAIKUDI</li>
+                            <li><span>2016</span>SSLC (X-STD) at  ST.MICHAEL.MATRIC.HR.SEC.SCHOOL , KARAIKUDI</li>
+                        </ul>
+
+                    </div>
+                    
+
+            </div>
+        </div>
+    </div>
+</div>
+  <!--services-->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title" style="margin-left: 40%;">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>We build an web development and it can range from developing a simple single static page of plain text to complex web 
+                    applications, electronic businesses, and social network services.</p>
+                <a href="#">learn more!</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-palette"></i>
+                <h2>Web Design</h2>
+                <p>My designing is responsible for creating the design and layout of a website or web pages. It and can mean working
+                    on a brand new website or updating an already existing site</p>
+                <a href="#">learn more!</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-shield-halved"></i>
+                <h2>Basic Website Testing</h2>
+                <p>Cypress is a next generation automation testing tool build for the modern web browsers.</p>
+                <a href="#">learn more!</a>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+<!--porfolio section-->
+<section class="portfolio" id="portfolio">
+    <h2 class="sub-title" style="margin-left: 37%;">Latest <span>Project</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img  src="./images/landing page.avif" alt="">
+            <div class="portfolio-layer">
+                <h4>Landing Page</h4>
+                <p>Build an standalone web page that a person "lands" on after clicking through from a email, ad, or other digital location.</p>
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="./images/portfolio.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Portfolio Website</h4>
+                <p>An online portfolio is an online representation of work which I have created, as well as my skills and experience.</p>
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="./images/illustrator-img-3.avif" alt="">
+            <div class="portfolio-layer">
+                <h4>Building ERP Process</h4>
+                <p>Building ERP Process with  database connection is a configuration file where you can specify a database details.</p>
+            </div>
+        </div>
+    
+    </div>
+   
+</section>
+<!--contact section-->
+<section class="contact" id="contact">
+    <h2 class="sub-title" style="margin-left: 37%;">Contact <span>Me!</span></h2>
+<!--form tags-->
+    <form onsubmit="return fn1()" action="#" name="myform" method="POST">
+ <div class="input-box">
+    <input type="text" placeholder="Enter Your Name" name="uname">
+    <input type="email" placeholder="Yourmail@gmail.com" name="email">
+ </div>
+ <div class="input-box">
+    <input type="number" placeholder="Enter Your Mobile Number" name="number">
+    <input type="text" placeholder="Email Subject" name="subject">
+ </div>
+ <textarea name="" id="" cols="30" rows="10" placeholder="your message" ></textarea>
+ <!-- <input type="submit"  value="Send Message" class="btn"> -->
+ <P id="errorbox">Fill Up Your Details</P>
+ <button type="submit" value="Send Message" class="btn">Send Message</button>
+    </form>
+</section>
+<!--footer design-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>copyright &copy; 2023 by selva | Personal PortFolio Website </p>
+        
+    </div>
+    <div class="footer-icon-top">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="./js/index.js"></script>
+<!--typed js-->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+</html>
